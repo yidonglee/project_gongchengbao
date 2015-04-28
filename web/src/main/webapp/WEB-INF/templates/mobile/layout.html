@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<div th:fragment="head">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="/">Yummy Noodle Bar</a>
+                <div class="nav-collapse collapse">
+                    <p class="navbar-text pull-right">
+
+                    </p>
+                    <ul class="nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/showBasket">Basket</a></li>
+                    </ul>
+                </div> <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+</div>
+<div th:fragment="mhead">
+    <header class="bar bar-nav">
+     <div class="icon icon-gear pull-left">工程宝</div>
+      <form>
+        <input type="search" placeholder="Search"/>
+      </form>
+    </header>
+</div>
+<div th:fragment="left">
+    <div class="well sidebar-nav span3">
+        <ul class="nav nav-list">
+            <li class="nav-header">Navigation could go here</li>
+            <li><a href="http://www.gopivotal.com/">Pivotal, Inc</a></li>
+            <li><a href="http://www.springsource.org/spring-xd">Spring XD</a></li>
+            <li><a href="http://spring.io">Spring</a></li>
+        </ul>
+    </div>
+</div>
+
+<div th:fragment="foot">
+    <footer>
+        <p>&copy; Yummy Noodle Bar 2013</p>
+    </footer>
+</div>
+<div th:fragment="mfoot">
+ <footer  class="bar bar-footer bar-tab">
+  <a class="tab-item active" data-ignore="push" href="/">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">首页</span>
+  </a>
+   <a class="tab-item " data-ignore="push" href="/showProjects">
+    <span class="icon icon-search"></span>
+    <span class="tab-label">分类浏览</span>
+  </a>
+  <a class="tab-item" data-ignore="push" href="/">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">收藏</span>
+  </a>
+  <a class="tab-item" data-ignore="push" href="/personalPage">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">我 </span>
+  </a>
+   </footer>
+</div>
+
+<div th:fragment="mfoot1">
+  <a class="tab-item " data-ignore="push" href="/">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">首页</span>
+  </a>
+   <a class="tab-item active" data-ignore="push" href="/showProjects">
+    <span class="icon icon-search"></span>
+    <span class="tab-label">分类浏览</span>
+  </a>
+  <a class="tab-item" data-ignore="push" href="/">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">收藏</span>
+  </a>
+  <a class="tab-item" data-ignore="push" href="/personalPage">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">我 </span>
+  </a>
+</div>
+<div th:fragment="mfoot3">
+  <a class="tab-item " data-ignore="push" href="/">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">首页</span>
+  </a>
+   <a class="tab-item " data-ignore="push" href="/showProjects">
+    <span class="icon icon-search"></span>
+    <span class="tab-label">分类浏览</span>
+  </a>
+  <a class="tab-item" data-ignore="push" href="/">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">收藏</span>
+  </a>
+  <a class="tab-item active" data-ignore="push" href="/personalPage">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">我 </span>
+  </a>
+</div>
+</body>
+
+</html>

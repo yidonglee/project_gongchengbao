@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta name="description" content=""/>
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"></meta>
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"></meta>
+    <title>工程宝|国内最权威的工程项目资料库</title>
+   <!-- Include the compiled Ratchet CSS -->
+    <link href="/resources/mobile/css/ratchet.css" rel="stylesheet"></link>
+    <!-- Include the compiled Ratchet JS -->
+    <script src="/resources/js/jquery-1.11.1.min.js"></script>
+    <script src="/resources/mobile/js/ratchet.js"></script>
+    <style type="text/css">
+.slider {
+  margin-bottom: 0;
+}
+.slider img {
+  width: auto;
+  height: 150px;
+}
+.content-padded {
+  margin: 30px 15px 15px;
+}
+</style>
+
+<script lang="javascript">
+$(document).ready(function(){
+   
+
+});
+
+</script>
+</head>
+<body>
+
+	<!-- {!begin layout} -->
+	 <header class="bar bar-nav">
+       <div class="title">个人中心</div>
+    </header>
+	<footer  class="bar bar-footer bar-tab">
+  <a class="tab-item " data-ignore="push" href="/">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">首页</span>
+  </a>
+   <a class="tab-item " data-ignore="push" href="/showProjects">
+    <span class="icon icon-search"></span>
+    <span class="tab-label">分类浏览</span>
+  </a>
+  <a class="tab-item" data-ignore="push" href="/">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">收藏</span>
+  </a>
+  <a class="tab-item active" data-ignore="push" href="/">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">我 </span>
+  </a>
+   </footer>
+	<!-- {!end layout} -->
+	<!-- content begin -->
+    <div class="content">
+         <ul class="table-view">
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="/showProjects" data-transition="slide-in">
+            <span class="media-object icon icon-pages pull-left"></span>
+            <div class="media-body">
+              All inboxes
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="/showProjects" data-transition="slide-in">
+            <span class="media-object icon icon-person pull-left"></span>
+            <div class="media-body">
+              Personal email
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="inbox.html" data-transition="slide-in">
+            <span class="media-object icon icon-star-filled pull-left"></span>
+            <div class="media-body">
+              Starred
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="inbox.html" data-transition="slide-in">
+            <span class="media-object icon icon-trash pull-left"></span>
+            <div class="media-body">
+              Trash
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- content end -->
+</body>
+</html>
